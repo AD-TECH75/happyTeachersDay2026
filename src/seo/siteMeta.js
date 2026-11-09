@@ -4,21 +4,20 @@
  * lalu samakan juga bagian statis di index.html, sitemap.xml, robots.txt.
  */
 
-export const SITE_URL = "https://jiwoosbirthday.vercel.app/";
+export const SITE_URL = "https://happyteachersday2026.vercel.app/";
 export const OG_IMAGE = `${SITE_URL}assets/og-image.png`;
 
 export const siteMeta = {
-  title: "Happy Birthday, Jiwoo ♡ | 20 Tahun Penuh Cerita",
-  shortTitle: "Happy Birthday Jiwoo ♡",
-  siteName: "Happy Birthday Jiwoo",
+  title: "Selamat Hari Guru ♡ | Terima Kasih, Bapak/Ibu Guru",
+  shortTitle: "Selamat Hari Guru ♡",
+  siteName: "Selamat Hari Guru",
   description:
-    "A little birthday website made specially for Jiwoo — celebrating 20 wonderful years since September 7, 2006. Berisi pesan, galeri kenangan, surat, dan penghitung usia langsung. ♡",
+    "Website ucapan Hari Guru yang dibuat khusus untuk Bapak/Ibu Guru tercinta. Berisi pesan, surat, dan harapan terbaik sebagai tanda terima kasih atas dedikasi dan kasih sayang Anda. ♡",
   shortDescription:
-    "A little birthday surprise for Jiwoo — celebrating 20 years of being wonderfully you. ♡",
+    "Ucapan kecil untuk Bapak/Ibu Guru sebagai tanda terima kasih atas dedikasi dan kasih sayang Anda. ♡",
   keywords:
-    "Happy Birthday Jiwoo, Jiwoo Birthday, Jiwoo H2H, Birthday Jiwoo, 20 Years of Jiwoo, ucapan ulang tahun Jiwoo, website ulang tahun",
+    "Selamat Hari Guru, Hari Guru Nasional, ucapan Hari Guru, kata-kata Hari Guru, website ucapan Hari Guru, ucapan untuk guru",
   author: "ad-tech75",
-  locale: "id_ID",
   lang: "id",
   themeColor: "#ff7eb6",
   url: SITE_URL,

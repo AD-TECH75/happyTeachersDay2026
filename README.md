@@ -6,7 +6,7 @@ Versi Vue dari website ulang tahun Jiwoo. Semua dependency (AOS, font, SEO head 
 
 ```bash
 npm install
-npm run dev      # http://localhost:5173/jiwoosbirthday/
+npm run dev      # http://localhost:5173/
 ```
 
 Build untuk produksi:
@@ -85,7 +85,7 @@ Ubah di 6 tempat ini:
 
 ## Deploy ke Vercel
 
-Situs ini sudah dikonfigurasi untuk deploy ke `https://jiwoosbirthday.vercel.app/`, di-serve dari **root domain** (bukan subfolder), makanya `BASE` di `vite.config.js` di-set `"/"`.
+Situs ini sudah dikonfigurasi untuk deploy ke `https://happyteachersday2026.vercel.app/`, di-serve dari **root domain** (bukan subfolder), makanya `BASE` di `vite.config.js` di-set `"/"`.
 
 **Lewat dashboard:**
 1. Push repo ini ke GitHub.
