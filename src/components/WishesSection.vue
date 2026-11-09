@@ -2,20 +2,20 @@
 const wishes = [
   {
     icon: "🌷",
-    title: "You Stay Happy",
-    text: "May there always be a small reason to smile, even on days that feel heavy.",
+    title: "Tetap Bahagia",
+    text: "Semoga selalu ada alasan kecil untuk tersenyum, bahkan di hari-hari yang terasa berat.",
     delay: 0,
   },
   {
     icon: "✨",
-    title: "Your Dreams Come True",
-    text: "May everything you are striving for gradually find its way.",
+    title: "Cita-Cita Tercapai",
+    text: "Semoga setiap usaha dan cita-cita yang Bapak/Ibu perjuangkan perlahan menemukan jalannya.",
     delay: 100,
   },
   {
     icon: "💗",
-    title: "You Feel Loved",
-    text: "May you always know that your presence means more than you might realize.",
+    title: "Selalu Dicintai",
+    text: "Semoga Bapak/Ibu selalu tahu bahwa kehadiran Bapak/Ibu jauh lebih berarti daripada yang mungkin Bapak/Ibu sadari.",
     delay: 200,
   },
 ];
@@ -24,9 +24,9 @@ const wishes = [
 <template>
   <section class="wishes" id="wishes">
     <div class="container">
-      <p class="section-label" data-aos="fade-up">my wishes for you</p>
+      <p class="section-label" data-aos="fade-up">harapan saya untuk Anda</p>
 
-      <h2 class="section-title" data-aos="fade-up">I Hope...</h2>
+      <h2 class="section-title" data-aos="fade-up">Saya Berharap...</h2>
 
       <div class="wish-grid">
         <article

@@ -2,10 +2,7 @@
 import { useTypewriter } from "@/composables/useTypewriter";
 
 const message = `
-      Happy birthday, Jiwoo. May today remind you
-      that you are someone truly special.
-      May the new year bring even more happiness,
-      peace, laughter, and beautiful stories you have yet to experience.
+      Selamat Hari Guru. Semoga hari ini mengingatkan Bapak/Ibu bahwa setiap ilmu dan kasih sayang yang diberikan sangat berarti. Semoga tahun-tahun mendatang membawa lebih banyak kebahagiaan, kedamaian, tawa, dan kisah indah yang belum sempat Bapak/Ibu rasakan.
       ♡
     `;
 
@@ -15,18 +12,18 @@ const { typedText, targetRef } = useTypewriter(message, { speed: 25 });
 <template>
   <section class="intro" id="message">
     <div class="container">
-      <p class="section-label" data-aos="fade-up">for you</p>
+      <p class="section-label" data-aos="fade-up">untuk Anda</p>
 
-      <h2 class="section-title" data-aos="fade-up">Happy Birthday</h2>
+      <h2 class="section-title" data-aos="fade-up">Selamat Hari Guru</h2>
 
       <p class="section-desc" data-aos="fade-up">
-        A small page for someone who deserves many wonderful things today.
+        Halaman kecil ini untuk seseorang yang layak menerima banyak hal baik hari ini.
       </p>
 
       <div class="intro-card" data-aos="fade-up" data-aos-delay="200">
         <p ref="targetRef" class="typing-text">{{ typedText }}</p>
 
-        <p class="signature">— from someone who cares about you ♡</p>
+        <p class="signature">— dari seseorang yang menghargai Anda ♡</p>
       </div>
     </div>
   </section>
@@ -41,11 +38,7 @@ const { typedText, targetRef } = useTypewriter(message, { speed: 25 });
   margin-top: 55px;
   padding: 55px;
   border-radius: 35px;
-  background: linear-gradient(
-    135deg,
-    rgba(255, 255, 255, 0.9),
-    rgba(255, 239, 247, 0.8)
-  );
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.9), rgba(255, 239, 247, 0.8));
   box-shadow: var(--shadow);
   text-align: center;
   position: relative;

@@ -5,8 +5,6 @@ import AppLoader from "./components/AppLoader.vue";
 import MusicToggle from "./components/MusicToggle.vue";
 import HeroSection from "./components/HeroSection.vue";
 import MessageSection from "./components/MessageSection.vue";
-import AgeCounterSection from "./components/AgeCounterSection.vue";
-import GallerySection from "./components/GallerySection.vue";
 import LetterSection from "./components/LetterSection.vue";
 import WishesSection from "./components/WishesSection.vue";
 import FinalSection from "./components/FinalSection.vue";
@@ -29,8 +27,6 @@ useHearts({ interval: 900 });
   <main>
     <HeroSection />
     <MessageSection />
-    <AgeCounterSection />
-    <GallerySection />
     <LetterSection />
     <WishesSection />
     <FinalSection />

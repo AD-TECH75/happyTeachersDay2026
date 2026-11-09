@@ -2,13 +2,13 @@
 import { ref, onBeforeUnmount } from "vue";
 import { burstHearts } from "@/composables/useHearts";
 
-const DEFAULT_LABEL = "Make a Wish ✨";
+const DEFAULT_LABEL = "Kirim Ucapan ✨";
 const label = ref(DEFAULT_LABEL);
 let timerId = null;
 
 function celebrate() {
   burstHearts(50);
-  label.value = "Wish sent! ♡";
+  label.value = "Terkirim! ♡";
 
   if (timerId) window.clearTimeout(timerId);
   timerId = window.setTimeout(() => (label.value = DEFAULT_LABEL), 3000);
@@ -24,16 +24,15 @@ onBeforeUnmount(() => {
     <div class="final-content">
       <div class="final-heart" aria-hidden="true">♡</div>
 
-      <p class="section-label">one last thing</p>
+      <p class="section-label">satu hal lagi</p>
 
       <h2>
-        Happy Birthday,<br />
-        <span>Jiwoo.</span>
+        Selamat Hari Guru,<br />
+        <span>Bapak/Ibu Guru.</span>
       </h2>
 
       <p>
-        May this year be one of the best chapters of your life. Keep smiling,
-        keep dreaming, and please keep being you.
+        Terima kasih telah membimbing, mendidik, dan menyayangi kami dengan sepenuh hati. Semoga Bapak/Ibu selalu sehat, bahagia, dan diberi kekuatan dalam setiap langkah mengajar.
       </p>
 
       <button class="celebrate-btn" type="button" @click="celebrate">

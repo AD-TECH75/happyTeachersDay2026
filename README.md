@@ -1,4 +1,4 @@
-# Happy Birthday, Jiwoo ♡ — Vue 3 + Vite
+# SELAMAT HARI GURU ♡ — Vue 3 + Vite
 
 Versi Vue dari website ulang tahun Jiwoo. Semua dependency (AOS, font, SEO head manager) di-install lewat **npm**, tidak ada satu pun CDN.
 

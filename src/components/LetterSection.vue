@@ -14,12 +14,12 @@ function openLetter() {
 <template>
   <section class="letter-section" id="letter">
     <div class="container">
-      <p class="section-label" data-aos="fade-up">one more thing</p>
+      <p class="section-label" data-aos="fade-up">satu hal lagi</p>
 
-      <h2 class="section-title" data-aos="fade-up">A Letter for You</h2>
+      <h2 class="section-title" data-aos="fade-up">Sebuah Surat untuk Anda</h2>
 
       <p class="section-desc" data-aos="fade-up">
-        There is something that might be more pleasant to read than to say.
+        Ada hal-hal yang lebih mudah dituliskan daripada diucapkan.
       </p>
 
       <div class="letter-wrapper" data-aos="zoom-in">
@@ -27,7 +27,7 @@ function openLetter() {
           class="envelope"
           role="button"
           tabindex="0"
-          aria-label="Buka surat untuk Jiwoo"
+          aria-label="Buka surat untuk Bapak/Ibu Guru"
           @click="openLetter"
           @keydown.enter.prevent="openLetter"
           @keydown.space.prevent="openLetter"
@@ -35,7 +35,7 @@ function openLetter() {
           💌
         </div>
 
-        <p class="click-text">tap the letter ♡</p>
+        <p class="click-text">ketuk surat ini ♡</p>
       </div>
     </div>
 
@@ -47,8 +47,7 @@ function openLetter() {
 .letter-section {
   background:
     radial-gradient(circle at 10% 10%, rgba(255, 126, 182, 0.2), transparent 30%),
-    radial-gradient(circle at 90% 90%, rgba(155, 140, 255, 0.2), transparent 30%),
-    #faf8ff;
+    radial-gradient(circle at 90% 90%, rgba(155, 140, 255, 0.2), transparent 30%), #faf8ff;
 }
 
 .letter-wrapper {

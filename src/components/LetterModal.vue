@@ -42,35 +42,29 @@ onBeforeUnmount(() => {
           ×
         </button>
 
-        <h3 id="letterTitle">Dear Jiwoo,</h3>
+        <h3 id="letterTitle">Untuk Bapak/Ibu Guru,</h3>
 
-        <p>Happy birthday to you. ♡</p>
+        <p>Selamat Hari Guru. ♡</p>
 
         <p>
-          Today is all about you. It is about how someone—who might not always
-          realize it—can bring so much color into the lives of others.
+          Hari ini adalah tentang Bapak/Ibu. Tentang bagaimana seorang guru, yang mungkin tidak selalu menyadarinya, mampu memberi warna dan cahaya bagi kehidupan murid-muridnya.
         </p>
 
         <p>
-          I hope that in this new year of your life, you find more reasons to
-          smile, more things that warm your heart, and more moments that make you
-          say, "Life is truly beautiful."
+          Semoga setiap hari Bapak/Ibu dipenuhi alasan untuk tersenyum, hal-hal yang menghangatkan hati, dan momen indah yang membuat Bapak/Ibu merasa bahwa mengajar itu benar-benar berarti.
         </p>
 
         <p>
-          If there are days when everything feels heavy, I hope you remember that
-          you don't always have to be strong. Rest. Take it easy. You are still
-          precious, even when you aren't doing anything at all.
+          Jika ada hari ketika semuanya terasa berat, ingatlah bahwa Bapak/Ibu tidak selalu harus kuat. Beristirahatlah. Bapak/Ibu tetap berharga, bahkan ketika sedang tidak melakukan apa pun.
         </p>
 
-        <p>Thank you for being Jiwoo. Thank you for being in this world.</p>
+        <p>Terima kasih telah menjadi guru yang sabar, tulus, dan penuh dedikasi. Terima kasih telah hadir dan berjasa dalam kehidupan kami.</p>
 
         <p>
-          May all the heartfelt wishes you've kept to yourself find their way to
-          you.
+          Semoga setiap doa baik yang Bapak/Ibu simpan dalam hati perlahan menemukan jalannya kembali kepada Bapak/Ibu.
         </p>
 
-        <p class="letter-sign">Happy Birthday, Jiwoo. ♡</p>
+        <p class="letter-sign">Selamat Hari Guru. ♡</p>
       </div>
     </div>
   </Teleport>

@@ -6,17 +6,16 @@
     <div class="floating star2" aria-hidden="true">✧</div>
 
     <div class="hero-content">
-      <p class="small-title" data-aos="fade-down">a little celebration for</p>
+      <p class="small-title" data-aos="fade-down">sebuah perayaan untuk</p>
 
-      <h1 data-aos="zoom-in">Jiwoo<span>♡</span></h1>
+      <h1 data-aos="zoom-in">Guruku<span>♡</span></h1>
 
       <p class="hero-subtitle" data-aos="fade-up" data-aos-delay="300">
-        Today isn't just another day. Today is the day someone wonderfully
-        special came into this world.
+        Hari ini bukan sekadar hari biasa. Hari ini adalah hari untuk mengenang sosok luar biasa yang telah membimbing dan menginspirasi kita.
       </p>
 
       <a href="#message" class="scroll-btn" data-aos="fade-up" data-aos-delay="500">
-        scroll to your surprise ↓
+        gulir untuk melihat kejutan ↓
       </a>
     </div>
   </section>
